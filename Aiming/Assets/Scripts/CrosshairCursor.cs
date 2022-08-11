@@ -4,13 +4,11 @@ using UnityEngine;
 
 public class CrosshairCursor : MonoBehaviour
 {
-    public Texture2D mouseCursor;
-
-    Vector2 hotSpot = new Vector2(0, 0);
-    CursorMode cursorMode = CursorMode.Auto;
+    public Texture2D crossCursor;
 
     private void Start()
     {
-        Cursor.SetCursor(mouseCursor, hotSpot, cursorMode);
+        Vector2 hotSpot = new Vector2(crossCursor.width / 2,  crossCursor.height / 2);
+        Cursor.SetCursor(crossCursor, hotSpot, CursorMode.ForceSoftware);
     }
 }

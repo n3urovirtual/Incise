@@ -11,22 +11,26 @@ public class SpawnManager : MonoBehaviour
     public int redTotalNum;
     public string scoreDisplay;
     public GameObject instructions;
+    [HideInInspector] public static bool spawnStarted = false;
+    [HideInInspector] public static int clickCounter = 0;
 
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
+            clickCounter++;
             instructions.SetActive(false);
-
             if (!IsInvoking("Spawn"))
             {
                 InvokeRepeating("Spawn", 0.5f, 0.91f);
+                spawnStarted = true;
             }
         }
         if (spawnedObjects == maxSpawnObjects)
         {
             CancelInvoke();
             StartCoroutine(DestroyObjects("spheres"));
+            spawnStarted = false;
         }
     }
 

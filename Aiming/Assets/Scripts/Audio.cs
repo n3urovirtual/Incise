@@ -6,10 +6,12 @@ public class Audio : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (SpawnManager.spawnStarted && SpawnManager.clickCounter >1)
         {
-            shot.Play();
+            if (Input.GetMouseButtonDown(0))
+            {
+                shot.Play();
+            }
         }
     }
-
 }

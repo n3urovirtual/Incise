@@ -47,13 +47,13 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>2.0.14</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorVersion>2.0.16</UnityProjectGeneratorVersion>
     <UnityProjectType>Editor:5</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2020.3.23f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\Views\Diff\GetClientDiffInfos.cs" />
@@ -297,9 +297,9 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\Views\CreateWorkspace\Dialogs\RepositoriesListView.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\UI\Progress\DrawProgressForOperations.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\Tool\ToolConstants.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\CollabMigration\MigrationProgressRender.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\Tool\FindTool.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\Tool\ToolConstants.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\CloudProjectDownloader\ParseArguments.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\Views\Branch\Dialogs\RenameBranchDialog.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.15.1\Editor\PlasticSCM\CloudProjectDownloader\CommandLineArguments.cs" />
@@ -592,9 +592,6 @@
     </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.23f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
-      <HintPath>C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>

@@ -2946,15 +2946,15 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1249169289}
-  - component: {fileID: 1249169288}
+  - component: {fileID: 1249169287}
   m_Layer: 0
   m_Name: Crosshair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &1249169288
+  m_IsActive: 1
+--- !u!114 &1249169287
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2966,7 +2966,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62f6a581af84d6440a932ee2fbe37389, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseCursor: {fileID: 2800000, guid: e1badd55ff370ae4cb22c45ab6476d2b, type: 3}
+  crossCursor: {fileID: 2800000, guid: e1badd55ff370ae4cb22c45ab6476d2b, type: 3}
 --- !u!4 &1249169289
 Transform:
   m_ObjectHideFlags: 0
