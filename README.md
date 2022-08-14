@@ -12,8 +12,9 @@ This is an interactive application in which spheres of different colors (red and
 
 ## In-game screenshots/video
 
-<img src = "https://github.com/n3urovirtual/Incise/blob/main/Screenshots/gameplay.PNG" width = 400> 
 <img src = "https://github.com/n3urovirtual/Incise/blob/main/Screenshots/start_screen.PNG" width = 400>
+<img src = "https://github.com/n3urovirtual/Incise/blob/main/Screenshots/gameplay1.PNG" width = 400> 
+
 
 ##### Demo video (click on the image):
 
